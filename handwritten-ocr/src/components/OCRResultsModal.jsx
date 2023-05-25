@@ -7,8 +7,9 @@ function OCRResultsModal({ show, error, results, setShow }) {
   const [copied, setCopied] = useState(false);
 
   const handleCopyClick = () => {
-    navigator.clipboard.writeText(results);
-    setCopied(true);
+    navigator.clipboard.writeText(results).then(() => {
+      setCopied(true);
+    });
   };
 
   const handleSaveClick = () => {

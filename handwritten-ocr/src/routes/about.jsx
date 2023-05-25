@@ -153,7 +153,7 @@ function About() {
             {"\n"}
             {'-F "image=@image.png" \\'}
             {"\n"}
-            {"https://api.example.com/api/ocr"}
+            {"https://api.melmii-ocr.ru/api/ocr"}
           </code>
         </pre>
         <p>

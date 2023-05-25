@@ -8,7 +8,7 @@ import {
   Form,
   Alert,
 } from "react-bootstrap";
-import styled, { ThemeProvider, keyframes } from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
 import { FaEye } from "react-icons/fa";
 import theme from "../themes/theme";
 
